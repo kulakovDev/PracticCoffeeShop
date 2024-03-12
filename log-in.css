@@ -1,0 +1,171 @@
+@font-face {
+    font-family: 'Jost';
+    src: url('/fonts/Jost-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    height: 100%;
+}
+body{
+    background: #181A1B;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.top-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5em;
+}
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #3b3b3b;
+    padding: 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+.shop-name{
+     color: #DFDCD8;
+     font-family: 'IM FELL French Canon SC';
+     font-size: 28px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+ }
+.welcome{
+    color: #DFDCD8;
+    font-family: 'IM FELL French Canon SC';
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 5px;
+}
+label{
+    color: #DFDCD8;
+    font-family: 'IM FELL French Canon SC';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#login, #signup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.log-in-box{
+    background-color: #3b3b3b;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    gap: 15px;
+    padding: 25px 0;
+    border-radius: 5px;
+}
+#country{
+    font-size: 18px;
+    color: #b8b8b8;
+}
+.input-radio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+.input input{
+    min-width: 300px;
+    height: 40px;
+    padding: 0 10px;
+    font-size: 17px;
+    font-family: 'IM FELL French Canon SC';
+    font-weight: 400;
+}
+.input a{
+    font-weight: 300;
+    font-size: 14px;
+    color: #DFDCD8;
+    font-family: 'IM FELL French Canon SC';
+    text-decoration: none;
+    width: auto;
+}
+.accounts{
+    background-color: #DDDDDD;
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    gap: 15px;
+    opacity: 0.9;
+}
+.accounts:hover{
+    opacity: 1;
+    box-shadow: 0 2px 4px black;
+}
+.accounts p{
+    text-decoration: none;
+    color: black;
+}
+.accounts img{
+    width: 35px;
+}
+#power{
+    color: #b8b8b8;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+#forgot-create{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    width: auto;
+    height: auto;
+}
+.sub-but{
+    background-color: rgb(13, 130, 102);
+    padding: 15px 100px;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    cursor: pointer;
+}
+#login-tab, #signup-tab{
+    padding: 10px 25px;
+    background-color: #5b5b5b;
+    cursor: pointer;
+    color: #b8b8b8;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.tabs{
+    display: flex;
+    border: none;
+    gap: 10px;
+}
+@media only screen and (max-width: 768px){
+    .tabs{
+        flex-direction: column;
+    }
+}

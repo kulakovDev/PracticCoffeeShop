@@ -1,0 +1,464 @@
+@font-face {
+    font-family: 'Jost';
+    src: url('/fonts/Jost-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(#181A1B,#170a0a);
+}
+/*   All for page */
+.main-page{
+    margin: 0 auto;
+    width: 1366px;
+    height: 100%;
+    background-color: #181A1B;
+}
+header{
+    background: #292929;
+    padding: 15px 65px;
+    flex-shrink: 4;
+}
+#welcome-img{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 80px;
+}
+.last_product{
+    margin-left: 65px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 65px;
+    flex-wrap: wrap;
+}
+.main-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-shrink: 0;
+    margin-left: 65px;
+    margin-right: 65px;
+    padding: 66.5px 33px;
+}
+/* Different Blocks */
+.bottom-logo{
+    background: #3C3C3C;
+    padding: 3px 65px;
+}
+.social{
+    display: flex;
+    width: 184px;
+    justify-content: space-between;
+    align-items: center;
+}
+.welcome{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+#logo-place{
+    background: #3C3C3C;
+    padding: 10px 65px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.log_to_cart .top-log{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.log_to_cart ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+header nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 50px;
+}
+.pic-fig{
+    display: flex;
+    padding: 37px 12px;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    width: 300px;
+    border-radius: 10px;
+    margin: 1em;
+}
+.pic-fig:hover{
+    background-color: #292929;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+.add_to_cart{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.work{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+/* All for Text */
+.first_fig{
+    color: #DFDCD8;
+    font-family: Jost;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 10px;
+}
+.sect-fig{
+    display: flex;
+    align-items: center;
+    gap: 5.1em;
+    color: #DDD;
+    font-family: Jost;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 107.187%; /* 30.012px */
+}
+.zagol{
+    color: #FFB046;
+    font-family: Jost;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.blocks{
+    display: inline-flex;
+    gap: 15px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 0 20px;
+}
+.blocks li{
+    margin-bottom: 7px;
+    color: #DFDCD8;
+    font-family: Jost;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    list-style: none;
+}
+.last-prod{
+    color: #DFDCD8;
+    font-family: Jost;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 65px;
+}
+.shop-name{
+    color: #DFDCD8;
+    font-family: 'IM FELL French Canon SC';
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.log_to_cart li, .top-log{
+    color: #DFDCD8;
+    font-family: IM FELL French Canon SC;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    list-style: none;
+    text-decoration: none;
+}
+header nav ul li a{
+    color: #DFDCD8;
+    font-family: Jost;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+header nav ul li{
+    list-style: none;
+}
+.work-text{
+    color: #DFDCD8;
+    font-family: Jost;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 270px;
+}
+.welc-text{
+    color: #DFDCD8;
+    font-family: Jost;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+}
+.top-log{
+    position: relative;
+}
+/* HOVERS*/
+.log-wish-cart:hover{
+    border-bottom: 2px solid #DFDCD8;
+}
+header nav a:hover{
+    border-bottom: 2px solid #6d6d6d;
+}
+/* Images */
+#welcome-img figure{
+    border: 5px solid #717070;
+}
+.social_logo{
+    width: 40px;
+    height: 40px;
+}
+#welcome-img figcaption{
+    font-family: Jost;
+    padding: 0.5em;
+    font-weight: 400;
+    color: #b8b8b8;
+    text-align: center;
+    background: linear-gradient(to left, #170a0a, #151414);
+}
+/*Adapt*/
+@media only screen and (max-width: 1366px){
+    .main-page{
+        margin: 0 auto;
+        padding: 0 auto;
+        max-width: 100%;
+        width: 1000px;
+    }
+}
+@media screen and (max-width: 768px) {
+    #logo-place {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .log_to_cart ul {
+        gap: 10px;
+    }
+    .shop-name{
+        font-size: 21px;
+    }
+    .work-text{
+        max-width: 160px;
+    }
+    header nav ul {
+        flex-direction: column;
+        gap: 5px;
+    }
+    .main-footer{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .blocks {
+        flex: none;
+        width: 100%;
+        max-width: 400px;
+    }
+}
+@media only screen and (max-width: 900px) and (min-width: 768px){
+    .main-footer{
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
+    .blocks {
+        flex: none;
+        width: 100%;
+        max-width: 400px;
+    }
+}
+/*FOR PROD_CART*/
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+#order{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 74px;
+    flex-wrap: wrap;
+}
+#coffe-img{
+    display: flex;
+    width: 450px;
+    height: 350px;
+    padding: 0px 12px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.04);
+    border-radius: 15px;
+}
+.prod-info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+.prod-name {
+    display: flex;
+    width: 350px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.prod-name img{
+    width: 100px;
+}
+.prod-name span{
+    color: #577CFF;
+    font-family: Jost;
+    font-size: 18px;
+}
+.prod-name div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 25px;
+}
+.text1{
+    color: #DFDCD8;
+    font-family: Jost;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.hr{
+    width: 100%;
+    opacity: 0.5;
+}
+.price p{
+    color: #DDD;
+    font-family: Roboto;
+    font-size: 21px;
+    line-height: 107.187%; /* 38.587px */
+    display: flex;
+    flex-direction: column;
+}
+.pay-menu button{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 10px 30px;
+    background-color: #2F2F2F;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+.pay-menu button:hover{
+    box-shadow: 0 1px 2px 1px #151515;
+}
+.pay-menu button:active{
+    background-color: #f19505;
+}
+.pay-menu button p{
+    color: #DFDCD8;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 107.187%; /* 38.587px */
+}
+.pay-menu button img{
+    width: 25px;
+}
+.pay-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+}
+.payment-meth{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 350px;
+}
+.payment-meth img{
+    width: 40px;
+}
+.payment-meth p{
+    color: #DFDCD8;
+    font-family: Jost;
+    font-size: 14px;
+    line-height: 107.187%; /* 25.725px */
+}
+.add-info{
+    margin: 0 auto;
+}
+.add-info p{
+    color: #DFDCD8;
+    font-family: Jost;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.Descrtiption-text{
+    width: 80%;
+    color: #DDD;
+    text-align: center;
+    font-family: Jost;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5em;
+    margin-bottom: 25px;
+}
+#fff{
+    color: #DDD;
+    font-family: Jost;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.less-padding{
+    padding-top: 30px;
+    margin-bottom: 50px;
+}
+#margin{
+    margin-bottom: 20px;
+}

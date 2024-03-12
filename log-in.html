@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <title>Auth</title>
+        <link rel="stylesheet" href="log-in.css">
+        <link rel="shortcut icon" href="img/sitelogo.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<section class="top-bottom">
+        <div class="logo">
+                <img src="img/logo.png" alt="">
+                <p class="shop-name">Brazilla Coffee Shop</p>
+        </div>
+</section>
+<section class="top-bottom">
+        <div class="tabs">
+                <button onclick="" id="login-tab" class="active-tab">Login</button>
+                <div class="log-in-box">
+                        <form action="" class="active-form" id="login">
+                                <p class="welcome">Log in</p>
+                                <div class="input">
+                                        <label for="in-email">
+                                                Email address
+                                        </label>
+                                        <input type="text" inputmode="email" id="in-email" name="email" placeholder="Write here"
+                                               required>
+                                </div>
+                                <div class="input">
+                                        <label for="passw">
+                                                Password
+                                        </label>
+                                        <input type="password" id="passw" name="password" placeholder="Write here" required>
+                                        <div id="forgot-create">
+                                                <a href="#">Forgot your password?</a>
+                                                <a href="#">Don't have an account yet?</a>
+                                        </div>
+                                        <hr style="width: auto; opacity: 0.5;">
+                                </div>
+                                <a href="#">
+                                        <input type="submit" name="action" class="sub-but" value="Continue">
+                                </a>
+                                <hr style="width: 250px; opacity: 0.5;">
+                                <a href="#">
+                                        <div class="accounts">
+                                                <img src="img/google.png">
+                                                <p>Enter via Google Account</p>
+                                                <img style="transform: scale(-1, 1)" src="img/google.png">
+                                        </div>
+                                </a>
+                        </form>
+                        <form action="" class="hidden-form" id="signup">
+                                <p class="welcome">Sign up</p>
+                                <div class="input">
+                                        <label for="up-email">
+                                                Email address
+                                        </label>
+                                        <input type="text" inputmode="email" id="up-email" name="email" placeholder="Write here"
+                                               required>
+                                </div>
+                                <div class="input">
+                                        <label for="pass">
+                                                Password
+                                        </label>
+                                        <input type="password" id="pass" name="password" placeholder="Write here" required>
+                                </div>
+                                <div class="input">
+                                        <label for="pas">
+                                                Confirm password
+                                        </label>
+                                        <input type="password" id="pas" name="password" placeholder="Write here" required>
+                                        <hr style="width: auto; opacity: 0.5;">
+                                </div>
+                                <p id="country">Your country</p>
+                                <div>
+                                        <div class="input-radio">
+                                                <label for="radio1">
+                                                        Ukraine
+                                                </label>
+                                                <input type="radio" id="radio1" name="rad" value="ua" required>
+                                                <label for="radio2">
+                                                        USA
+                                                </label>
+                                                <input type="radio" id="radio2" name="rad" value="us" required>
+                                                <label for="radio3">
+                                                        Other
+                                                </label>
+                                                <input type="radio" id="radio3" name="rad" value="oth" required>
+                                        </div>
+                                        <hr style="width: 100%; opacity: 0.5;">
+                                </div>
+                                <a href="#">
+                                        <input type="submit" name="action" class="sub-but" value="Continue">
+                                </a>
+                                <hr style="width: 250px; opacity: 0.5;">
+                                <a href="#">
+                                        <div class="accounts">
+                                                <img src="img/google.png">
+                                                <p>Enter via Google Account</p>
+                                                <img style="transform: scale(-1, 1)" src="img/google.png">
+                                        </div>
+                                </a>
+                        </form>
+                </div>
+                <button onclick="" id="signup-tab">Signup</button>
+        </div>
+</section>
+<section class="top-bottom">
+        <p id="power">Powered by Brazzila Coffee Shop</p>
+</section>
+<script src="login-signup.js"></script>
+</body>
+</html>
